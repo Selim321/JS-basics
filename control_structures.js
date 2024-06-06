@@ -51,5 +51,11 @@ do {
 my_array = [1,3,4];
 
 for (let i=0; i<my_array.length; i++) {
-  console.log(my_array[i]);
+  if (my_array[i] % 2 == 0) {
+    console.log(my_array[i]+ " is even");
+  }
+  else {
+    console.log(my_array[i]+" is odd")
+  }
+  
 };
