@@ -44,3 +44,12 @@ do {
   console.log('Iteration:', j);
   j++;
 } while (j < 5);
+
+
+// Practice 
+
+my_array = [1,3,4];
+
+for (let i=0; i<my_array.length; i++) {
+  console.log(my_array[i]);
+};
